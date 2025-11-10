@@ -12,7 +12,7 @@
 This project is a small **8086 Assembly program** that runs in a DOS environment.  
 It reads up to **10 unsigned integers (0–65,535)** from keyboard input, validates them, sorts them in ascending order, and prints the results on screen.
 
-It was built using **MASM/TASM syntax** and tested in **VS Code** with a DOSBox extension — showing how to handle manual input parsing, memory management, and sorting at the register level.
+It was built using **MASM/TASM syntax** and tested in **VS Code** with a DOSBox extension, showing how to handle manual input parsing, memory management, and sorting at the register level.
 
 ---
 
