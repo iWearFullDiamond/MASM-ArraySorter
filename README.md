@@ -16,7 +16,7 @@ It was built using **MASM/TASM syntax** and tested in **VS Code** with a DOSBox 
 
 ---
 
-##🧾 Why It’s in My Portfolio
+## 🧾 Why It’s in My Portfolio
 
 Even though this project is small, it highlights the core skills behind low-level programming:
 Manual parsing and algorithm implementation
@@ -76,9 +76,12 @@ Uses `INT 21h / AH = 0Ah` to store typed data in a buffer.
 - Remainders are pushed and popped to print digits  
 - Spaces separate the numbers visually  
 
-Example run:
+### 🧪 Example run
+
+```text
 Introdu max 10 numere (intre 0 si 65.535) separate prin spatiu :
 10 3 25 7
+
 Numerele sortate crescator : 3 7 10 25
 
 ---
@@ -88,11 +91,4 @@ Numerele sortate crescator : 3 7 10 25
 ### Requirements
 - **MASM or TASM** assembler  
 - **DOSBox** (or VS Code with MASM/TASM DOSBox extension)  
-
-### Compile & Link (inside DOSBox)
-
-```bat
-masm src\ArraySort.asm;
-link ArraySort.obj;
-ArraySort.exe
 
