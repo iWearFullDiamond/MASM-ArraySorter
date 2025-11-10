@@ -83,6 +83,7 @@ Introdu max 10 numere (intre 0 si 65.535) separate prin spatiu :
 10 3 25 7
 
 Numerele sortate crescator : 3 7 10 25
+```text
 
 ---
 
